@@ -1,0 +1,89 @@
+.navbar-brand {
+    height: 60px;
+    padding: 20px;
+    color: white;
+    background-color: lightseagreen;
+}
+h6{
+    color: lightseagreen;
+    font-weight: bold;
+
+}
+.dropdown-item{
+    color:grey;
+    background-color:white;
+}
+.navbar navbar-expand-lg navbar-lightseagreen{
+    background-color: lightseagreen; 
+}
+.display-4{
+    color: lightseagreen;
+    font-weight: 700;
+    font-size:28px;
+}
+.lead {
+    font-size: 14px;
+}
+.text-left {
+    color: lightseagreen;
+    font-weight: 700;
+    font-size:24px;
+}     
+
+.caption {
+    color: gray;
+    font-size: 14px;
+} 
+.text-compare{
+    color:black;
+    font-weight: 400;
+    font-size:14px;
+}
+
+.equal, .equal > div[class*='col-'] {  
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex:1 0 auto;
+}
+button {
+    color: lightseagreen;
+    background-color: lightseagreen;
+    border: none;
+    font-size: 16px;
+}
+      /*Navbar is set to default with the "hamburger" and links on the left
+      side of the screen. To move to the right of the screen, simply
+      change the three "float: Left;" references to read "float: right;".*/
+      nav .navNarrow i {
+        float: left;
+        cursor: pointer;
+        color: #000;
+      }
+      
+      nav .navNarrow .narrowLinks a {
+        text-decoration: none;
+        display: block;
+        float: left;
+        clear: left;
+        padding: 0.5em 0;
+      }
+      
+      .hidden {
+        display: none;
+      }
+      
+      /*Adjust breakpoint as desired to select when the "hamburger" menu is
+      replaced by just the links.*/
+      @media (min-width: 480px) {
+        
+        nav .navWide {
+          display: block;
+        }
+      
+        nav .navNarrow {
+          display: none;
+        }
+      }

@@ -6,7 +6,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Latitude vs X</title>
+  <title>Max Temperature</title>
 
   <!-- Boostrap Stylesheet -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -17,7 +17,6 @@
 </head>
 
 <body>
-
   <!-- Start of navbar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="index.html">Latitude</a>
@@ -51,57 +50,60 @@
   </nav>
   <!-- End of navbar -->
 
-  <!-- Start of Visualizations imageNav Area -->
+  <!-- Start of container -->
   <div class="container">
-    <div class="col-xs-12">
-      <h1 class="text-left">Comparison: Latitude vs X</h1>
-      <hr />
-      <p>Click any plot to get an in-depth analysis</p>
-    </div>
-    <article class="row">
-    
-      <!-- <div> -->
-      <div class="col-md-6">
-        <h6>vs. Max Temperature</h6>
-
-        <a href="max temperature.html">
-          <img src="assets/images/Fig1.png" alt='Max Temp' class="img-responsive"
-            style="width:100%;height:95%;display:block;">
-        </a>
-        <hr />
+    <section class="row">
+      <div class="col-md-8">
+         <h1 class="display-4">Max Temperature</h1>
+              
+          <img src="assets/images/Fig1.png" style="float:left; width:175px; height:175px;"><span
+            style="vertical-align:bottom">
+        </p>
+        <p></p>
+        <p class="lead">As one would expect, the weather increases in temperature as the closeness
+          to the equator. The Sun's rays fall directly on the equator, which makes it the hottest.
+          Other places on the Earth don’t receive direct sunlight, but the equator has sunlight
+          vertically falling on it making it hotter.
+        </p></span>
+        </p>
+        <p></p>
       </div>
-
-      <div class="col-md-6">
-        <h6>vs. Humidity</h6>
-        <a href="humidity.html">
-          <img src="assets/images/Fig2.png" alt='vs. Humidity' class="img-responsive"
-            style="width:100%;height:95%;display:block;">
-        </a>
-        <hr />
+      <!-- Start of Visualizations imageNav Area -->
+      <div class="col-md-4">
+        <h2 class="text-left">Visualizations</h2>
+        <div class="row">
+          <div class="col-md-3">
+            <a href="max temperature.html">
+              <div class="thumbnail">
+                <img src="assets/images/Fig1.png" alt="..." class="img-thumbnail">
+            </a>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <a href="humidity.html">
+            <div class="thumbnail">
+              <img src="assets/images/Fig2.png" alt="..." class="img-thumbnail">
+          </a>
+        </div>
       </div>
-      <!-- </article> -->
-      <!-- <div class="row equal"> -->
-      <div class="col-md-6">
-        <h6>vs. Cloudiness</h6>
+      <div class="col-md-3">
         <a href="cloudiness.html">
-          <img src="assets/images/Fig3.png" alt='vs. Cloudiness' class="img-responsive"
-            style="width:100%;height:95%;display:block;">
+          <div class="thumbnail">
+            <img src="assets/images/Fig3.png" alt="..." class="img-thumbnail">
         </a>
-        <hr />
       </div>
-
-      <div class="col-md-6">
-        <h6>vs. Windspeed</h6>
-        <a href="windspeed.html">
-          <img src="assets/images/Fig4.png" alt='vs. Windspeed' class="img-responsive"
-            style="width:100%;height:95%;display:block;">
-        </a>
-        <hr />
-        <!-- </div> -->
-      </div>
-    </article>
   </div>
+  <div class="col-md-3">
+    <a href="windspeed.html">
+      <div class="thumbnail">
+        <img src="assets/images/Fig4.png" alt="..." class="img-thumbnail">
+    </a>
+  </div>
+  </div>
+  </div>
+  </section>
   <!-- End of the Visualizations imageNav Area -->
+  <!-- End of container -->
   <!-- End of container -->
 
   <!-- jQuery CDN -->
